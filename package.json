@@ -1,10 +1,10 @@
 {
-  "name": "DenariusNodeWallet",
+  "name": "IndiocoinNodeWallet",
   "version": "1.0.0",
-  "description": "A Web Wallet for denariusd in NodeJS",
+  "description": "A Web Wallet for indiocoind in NodeJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenk/denariusnodewallet.git"
+    "url": "https://github.com/carsenk/indiocoinnodewallet.git"
   },
   "author": "Carsen Klock",
   "license": "MIT",

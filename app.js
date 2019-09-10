@@ -1,5 +1,5 @@
 /**
- * Denarius Wallet by Carsen Klock, Main app.js
+ * Indiocoin Wallet by Carsen Klock, Main app.js
  * Module dependencies.
  */
 const express = require('express');
@@ -200,7 +200,7 @@ app.use(errorHandler());
  * Start Express server.
  */
 app.listen(app.get('port'), () => {
-  console.log('%s Denarius Wallet is running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env')); 
+  console.log('%s Indiocoin Wallet is running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env')); 
   console.log('  Press CTRL-C to stop\n');
 });
 

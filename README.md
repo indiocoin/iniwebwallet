@@ -1,19 +1,19 @@
 
-Denarius [DNR] NodeJS Web Wallet
+Indiocoin [INI] NodeJS Web Wallet
 =======================
 
-[![Dependency Status](https://david-dm.org/carsenk/denariusnodewallet/status.svg?style=flat)](https://david-dm.org/carsenk/denariusnodewallet) [![Build Status](https://travis-ci.org/carsenk/denariusnodewallet.svg?branch=master)](https://travis-ci.org/carsenk/denariusnodewallet) [![Join the chat at https://gitter.im/denariusproject/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/denariusproject/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
+[![Dependency Status](https://david-dm.org/carsenk/indiocoinnodewallet/status.svg?style=flat)](https://david-dm.org/carsenk/indiocoinnodewallet) [![Build Status](https://travis-ci.org/carsenk/indiocoinnodewallet.svg?branch=master)](https://travis-ci.org/carsenk/indiocoinnodewallet) [![Join the chat at https://gitter.im/indiocoinproject/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/indiocoinproject/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
 
 ![DesktopWallet](https://user-images.githubusercontent.com/10162347/27821646-3b31105c-6060-11e7-8c82-cbbbb5b1e663.png)
 ![MobileWallet](https://user-images.githubusercontent.com/10162347/27821566-f807334c-605f-11e7-8bec-805fe433237f.png)
 
 **Live Demo**: Currently unavailable
 
-Denarius Node Wallet - A NodeJS/MongoDB powered denariusd Web Wallet.
+Indiocoin Node Wallet - A NodeJS/MongoDB powered indiocoind Web Wallet.
 
 Send and Receive Funds, Create new addresses, View Transactions, Edit your account, and more!
 
-Swap between your DNR Balance in USD and BTC prices calculated from http://coinmarketcap.com/currencies/denarius-dnr/
+Swap between your INI Balance in USD and BTC prices calculated from http://coinmarketcap.com/currencies/indiocoin-INI/
 
 2FA Authentication is included as well as QR Codes for addresses and 2FA!
 
@@ -23,13 +23,13 @@ Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Denarius Daemon Setup](#denarius-daemon-setup)
+- [Indiocoin Daemon Setup](#indiocoin-daemon-setup)
 - [License](#license)
 
 Features
 --------
 
-- Send and Receive DNR
+- Send and Receive INI
 - Wallet Addresses, Create new ones
 - View all transactions
 - Two Factor Authentication
@@ -60,7 +60,7 @@ Features
 Prerequisites
 -------------
 
-- [denariusd](https://github.com/carsenk/denarius)
+- [indiocoind](https://github.com/carsenk/indiocoin)
 - [MongoDB](https://www.mongodb.org/downloads)
 - [Node.js 6.0+](http://nodejs.org)
 - Command Line Tools (Optional)
@@ -77,10 +77,10 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone --depth=1 https://github.com/carsenk/denariusnodewallet.git denariuswallet
+git clone --depth=1 https://github.com/carsenk/indiocoinnodewallet.git indiocoinwallet
 
 # Change directory
-cd denariuswallet
+cd indiocoinwallet
 
 # Install NPM dependencies
 npm install
@@ -102,14 +102,14 @@ save you a lot of time in the long run, because you won't need to manually
 restart the server each time you make a small change in code. To install, run
 `sudo npm install -g nodemon`.
 
-Denarius Daemon Setup
+Indiocoin Daemon Setup
 ------------------
 
-You must have a Denarius daemon running on a local server or remote server (highly recommend using SSL)
+You must have a Indiocoin daemon running on a local server or remote server (highly recommend using SSL)
 
 Your configuration options should be set within your .env file, you can check the .env.example for examples
 
-In your denarius.conf file (The Denariusd/QT configuration file) add the following to allow use of the web wallet.
+In your indiocoin.conf file (The Indiocoind/QT configuration file) add the following to allow use of the web wallet.
 
 ```bash
 
